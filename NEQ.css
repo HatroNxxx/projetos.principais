@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+ header {
+    background-image: linear-gradient(to bottom, #03d4c3, #0f9fca);
+    color: white;
+    height: 100px;
+}
+
+#titulo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    text-align: center;
+}
+  
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu-link-a {
+    background: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#p-img-link-fundo {
+    margin: 90px auto;
+}
+
+.fone-videogame-smartphones-camiseta {
+    margin: 75px;
+    margin-top: -80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fones {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.video-game {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.smartphones-de-tudo {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.camiseta {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.fundo-img {
+    margin-top: -40px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#fone-img {
+    transition: 750ms;
+}
+
+.fone-img-fundo {
+    box-shadow: rgba(0, 132, 155, 0.39) -5px 5px 15px 5px;
+    position: relative;
+    top: -30px;
+    right: -20px;
+    padding: 15px;
+    height: 175px;
+}
+
+#fone-img:hover {
+    transform: translateY(-10px)
+}
+
+.videogamer-img-fundo {
+    box-shadow: rgba(0, 113, 243, 0.445) -10px 10px 15px;
+    position: relative;
+    top: -25px;
+    right: 1px;
+    height: 200px;
+    width: 250px;
+    padding: -10px;
+}
+
+#video-game-img {
+    transition: 1s;
+}
+
+#video-game-img:hover {
+    transform: translateY(-10px);
+}
+
+.smartphone-fundo {
+    box-shadow: rgba(194, 69, 177, 0.445) 5px 5px 15px 5px;
+    position: relative;
+    top: -20px;
+    right: 30px;
+    height: 190px;
+}
+
+#smartphones-img {
+    transition: 1s;
+}
+
+#smartphones-img:hover {
+    transform: translateY(-10px);
+}
+
+.camisa-fundo {
+    box-shadow: #0b3564be -1px 2px 10px;
+    position: relative;
+    top: -20px;
+    right: 55px;
+    height: 190px;
+}
+
+#camisa-img {
+    transition: 1s;
+}
+
+#camisa-img:hover {
+    transform: translateY(-10px);
+}
