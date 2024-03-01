@@ -1,13 +1,24 @@
+@charset "UTF-8";
+
 * {
     margin: 0;
     padding: 0;
 }
 
-
  header {
     background-image: linear-gradient(to bottom, #03d4c3, #0f9fca);
     color: white;
     height: 100px;
+}
+
+@font-face {
+    font-family: 'Nexa Heavy';
+    src: url('fontes/nexa/Nexa-Heavy.ttf') format('truetype');
+    font-weight: normal;
+}
+
+:root {
+    --font01: 'Nexa Heavy', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial','sans-serif';
 }
 
 #titulo {
@@ -23,7 +34,7 @@ a {
 }
 
 #menu-link-a {
-    background: black;
+    background: rgb(29, 29, 29);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: normal;
     font-size: 18px;
@@ -32,36 +43,14 @@ a {
     display: flex;
     justify-content: space-around;
 }
-
-#p-img-link-fundo {
-    margin: 90px auto;
-}
-
-.fone-videogame-smartphones-camiseta {
-    margin: 75px;
-    margin-top: -80px;
+div#p {
+    font-size: 30px;
+    font-family: var(--font01);
+    font-weight: normal;
+    padding: 0px 65px;
+    margin-bottom: 80px;
     display: flex;
     justify-content: space-between;
-}
-
-.fones {
-    font-size: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.video-game {
-    font-size: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.smartphones-de-tudo {
-    font-size: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.camiseta {
-    font-size: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .fundo-img {
@@ -71,10 +60,6 @@ a {
     position: relative;
 }
 
-#fone-img {
-    transition: 750ms;
-}
-
 .fone-img-fundo {
     box-shadow: rgba(0, 132, 155, 0.39) -5px 5px 15px 5px;
     position: relative;
@@ -82,10 +67,11 @@ a {
     right: -20px;
     padding: 15px;
     height: 175px;
+    transition: 750ms;
 }
 
-#fone-img:hover {
-    transform: translateY(-10px)
+.fone-img-fundo:hover {
+    transform: translateY(-8px)
 }
 
 .videogamer-img-fundo {
@@ -96,14 +82,11 @@ a {
     height: 200px;
     width: 250px;
     padding: -10px;
+    transition: 750ms;
 }
 
-#video-game-img {
-    transition: 1s;
-}
-
-#video-game-img:hover {
-    transform: translateY(-10px);
+.videogamer-img-fundo:hover {
+    transform: translateY(-8px);
 }
 
 .smartphone-fundo {
@@ -112,14 +95,11 @@ a {
     top: -20px;
     right: 30px;
     height: 190px;
+    transition: 750ms;
 }
 
-#smartphones-img {
-    transition: 1s;
-}
-
-#smartphones-img:hover {
-    transform: translateY(-10px);
+.smartphone-fundo:hover {
+    transform: translateY(-8px);
 }
 
 .camisa-fundo {
@@ -131,9 +111,9 @@ a {
 }
 
 #camisa-img {
-    transition: 1s;
+    transition: 700ms;
 }
 
 #camisa-img:hover {
-    transform: translateY(-10px);
+    transform: translateY(-8px);
 }
