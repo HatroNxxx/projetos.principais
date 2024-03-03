@@ -14,7 +14,6 @@
 @font-face {
     font-family: 'Nexa Heavy';
     src: url('fontes/nexa/Nexa-Heavy.ttf') format('truetype');
-    font-weight: normal;
 }
 
 :root {
@@ -43,21 +42,26 @@ a {
     display: flex;
     justify-content: space-around;
 }
+
+main {
+    background: #00000062;
+}
+
 div#p {
     font-size: 30px;
     font-family: var(--font01);
-    font-weight: normal;
-    padding: 0px 65px;
-    margin-bottom: 80px;
+    position: relative;
+    bottom: 10px;
+    padding: 10px;
+    margin: 0px 55px ;
     display: flex;
     justify-content: space-between;
 }
 
 .fundo-img {
-    margin-top: -40px;
+    padding: 10px 0px;
     display: flex;
     justify-content: space-between;
-    position: relative;
 }
 
 .fone-img-fundo {
@@ -75,11 +79,11 @@ div#p {
 }
 
 .videogamer-img-fundo {
-    box-shadow: rgba(0, 113, 243, 0.445) -10px 10px 15px;
+    box-shadow: rgba(0, 113, 243, 0.445) -10px 20px 15px;
+    border-radius: 15px;
     position: relative;
     top: -25px;
-    right: 1px;
-    height: 200px;
+    height: 195px;
     width: 250px;
     padding: -10px;
     transition: 750ms;
@@ -108,12 +112,9 @@ div#p {
     top: -20px;
     right: 55px;
     height: 190px;
-}
-
-#camisa-img {
     transition: 700ms;
 }
 
-#camisa-img:hover {
+.camisa-fundo:hover {
     transform: translateY(-8px);
 }
