@@ -45,6 +45,12 @@ a {
 
 main {
     background: #00000062;
+    min-width: 350px;
+    max-width: 1370px;
+}
+
+main img {
+    width: 100%;
 }
 
 div#p {
@@ -66,6 +72,7 @@ div#p {
 
 .fone-img-fundo {
     filter: drop-shadow(1px 1px 10px #73c1dfe5);
+    border-radius: 15px;
     position: relative;
     bottom: 20px;
     left: 25px;
@@ -74,7 +81,7 @@ div#p {
 }
 
 .fone-img-fundo:hover {
-    transform: translateY(-8px)
+    transform: translateY(-5px)
 }
 
 .videogamer-img-fundo {
@@ -87,7 +94,7 @@ div#p {
 }
 
 .videogamer-img-fundo:hover {
-    transform: translateY(-8px);
+    transform: translateY(-5px);
 }
 
 .smartphone-fundo {
@@ -99,24 +106,24 @@ div#p {
 }
 
 .smartphone-fundo:hover {
-    transform: translateY(-8px);
+    transform: translateY(-5px);
 }
 
 .camisa-fundo {
     filter: drop-shadow(1px 1px 8px #003cff75);
     position: relative;
     bottom: 20px;
-    right: 35px;
+    right: 10px;
     transition: 700ms;
 }
 
 .camisa-fundo:hover {
-    transform: translateY(-8px);
+    transform: translateY(-5px);
 }
 
 div > p {
     font-family: var(--font01), Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 1.8em;
     padding: 10px;
     text-align: center;
     display: grid;
