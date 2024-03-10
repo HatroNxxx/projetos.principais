@@ -53,30 +53,15 @@ main img {
     width: 100%;
 }
 
-div#p {
-    font-size: 30px;
-    font-family: var(--font01);
-    position: relative;
-    bottom: 10px;
-    padding: 10px;
-    margin: 0px 35px ;
-    display: flex;
-    justify-content: space-between;
-}
-
 .fundo-img {
-    padding: 10px 0px;
+    height: 250px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .fone-img-fundo {
     filter: drop-shadow(1px 1px 10px #73c1dfe5);
     border-radius: 15px;
-    position: relative;
-    bottom: 20px;
-    left: 25px;
-    height: 187px;
     transition: 750ms;
 }
 
@@ -87,9 +72,6 @@ div#p {
 .videogamer-img-fundo {
     filter: drop-shadow(1px 1px 10px #1f7fec83);
     border-radius: 15px;
-    position: relative;
-    left: 10px;
-    bottom: 20px;
     transition: 750ms;
 }
 
@@ -99,9 +81,6 @@ div#p {
 
 .smartphone-fundo {
     filter: drop-shadow(1px 3px 8px #ff3abd73);
-    position: relative;
-    bottom: 20px;
-    right: 20px;
     transition: 750ms;
 }
 
@@ -111,9 +90,6 @@ div#p {
 
 .camisa-fundo {
     filter: drop-shadow(1px 1px 8px #003cff75);
-    position: relative;
-    bottom: 20px;
-    right: 10px;
     transition: 700ms;
 }
 
@@ -126,5 +102,4 @@ div > p {
     font-size: 1.8em;
     padding: 10px;
     text-align: center;
-    display: grid;
 }
