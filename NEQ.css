@@ -45,12 +45,6 @@ a {
 
 main {
     background: #00000062;
-    min-width: 350px;
-    max-width: 1370px;
-}
-
-main img {
-    width: 100%;
 }
 
 .fundo-img {
