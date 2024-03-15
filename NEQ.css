@@ -45,10 +45,14 @@ a {
 
 main {
     background: #00000062;
+    min-height: 90px;
+}
+
+main img {
+    width: 100%;
 }
 
 .fundo-img {
-    height: 250px;
     display: flex;
     justify-content: space-around;
 }
@@ -92,8 +96,7 @@ main {
 }
 
 div > p {
-    font-family: var(--font01), Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 1.8em;
-    padding: 10px;
+    font-family: var(--font01);
+    font-size: 30px;
     text-align: center;
 }
