@@ -58,15 +58,29 @@ main img {
 
 .fundo-img {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #section-p {
     font-family: var(--font01);
     font-size: 3.5vh;
-    text-align: center;
     display: flex;
     justify-content: space-around;
+}
+
+#p-right {
+    position: relative;
+    right: 1.5vw;
+}
+
+.p-ajuste-position-smartphone {
+    position: relative;
+    left: 4.1vw;
+}
+
+.p-ajuste-position-camisa {
+    position: relative;
+    left: 3.5vw;
 }
 
 .fone-img-fundo {
