@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+html , body {
+    height: 97vh;
+}
+
  header {
     background-image: linear-gradient(to bottom, #03d4c3, #0f9fca);
     color: white;
@@ -54,6 +58,14 @@ main img {
 
 .fundo-img {
     display: flex;
+    justify-content: space-between;
+}
+
+#section-p {
+    font-family: var(--font01);
+    font-size: 3.5vh;
+    text-align: center;
+    display: flex;
     justify-content: space-around;
 }
 
@@ -69,7 +81,7 @@ main img {
 
 .videogamer-img-fundo {
     filter: drop-shadow(1px 1px 10px #1f7fec83);
-    border-radius: 15px;
+
     transition: 750ms;
 }
 
@@ -93,10 +105,4 @@ main img {
 
 .camisa-fundo:hover {
     transform: translateY(-5px);
-}
-
-div > p {
-    font-family: var(--font01);
-    font-size: 30px;
-    text-align: center;
 }
