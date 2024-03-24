@@ -42,18 +42,13 @@ a {
     font-style: normal;
     font-size: 18px;
     padding: 10px;
-    margin: 10px 0px;
+    margin: 9px 0px;
     display: flex;
     justify-content: space-around;
 }
 
 main {
     background: #00000062;
-    min-height: 90px;
-}
-
-main img {
-    width: 100%;
 }
 
 .fundo-img {
@@ -61,11 +56,12 @@ main img {
     justify-content: space-around;
 }
 
-#section-p {
+section > p {
     font-family: var(--font01);
-    font-size: 3.5vh;
-    display: flex;
-    justify-content: space-around;
+    font-size: 3.0vh;
+    position: relative;
+    height: 32px;
+    text-align: center;
 }
 
 .fone-img-fundo {
@@ -79,8 +75,7 @@ main img {
 }
 
 .videogamer-img-fundo {
-    filter: drop-shadow(1px 1px 10px #1f7fec83);
-
+    filter: drop-shadow(1px 1px 10px #22242783);
     transition: 750ms;
 }
 
