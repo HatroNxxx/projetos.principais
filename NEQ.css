@@ -68,21 +68,6 @@ main img {
     justify-content: space-around;
 }
 
-#p-right {
-    position: relative;
-    right: 1.5vw;
-}
-
-.p-ajuste-position-smartphone {
-    position: relative;
-    left: 4.1vw;
-}
-
-.p-ajuste-position-camisa {
-    position: relative;
-    left: 3.5vw;
-}
-
 .fone-img-fundo {
     filter: drop-shadow(1px 1px 10px #73c1dfe5);
     border-radius: 15px;
