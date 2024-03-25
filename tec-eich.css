@@ -1,27 +1,51 @@
+@charset "UTF-8";
+
 * {
     margin: 0;
     padding: 0;
 }
 
+@import  url('https://fonts.googleapis.com/css2?family=Tauri&display=swap');
+
 @font-face {
     font-family: 'Nexa Heavy';
     src: url('fontes/nexa/Nexa-Heavy.ttf') format('truetype');
     font-weight: normal;
+
+    font-family: "Tauri", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-#fundo {
+body {
     background-image: linear-gradient(to bottom, #03d4c3, #0f9fca);
+    height: 96vh;
+    margin: 13px;
+}
+
+#alinhamento {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    height: 641px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-
-
 #titulo {
-    align-items: center;
     font-family: 'Nexa Heavy', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 22px;
+    font-size: 19px;
+    font-variant: small-caps;
+    align-self: center;
     color: white;
+}
+
+#fundo-criar-conta {
+    background: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-variant: small-caps;
+    border-radius: 15px;
+    box-shadow: #00000065 1px 1px 15px 2px;
+    text-align: center;
+    height: 300px;
 }
