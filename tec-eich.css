@@ -5,27 +5,22 @@
     padding: 0;
 }
 
-@import  url('https://fonts.googleapis.com/css2?family=Tauri&display=swap');
 
 @font-face {
     font-family: 'Nexa Heavy';
     src: url('fontes/nexa/Nexa-Heavy.ttf') format('truetype');
     font-weight: normal;
-
-    font-family: "Tauri", sans-serif;
-    font-weight: 400;
-    font-style: normal;
 }
 
 body {
-    background-image: linear-gradient(to bottom, #03d4c3, #0f9fca);
-    height: 96vh;
-    margin: 13px;
+    background-image: linear-gradient(to bottom, #01f0dc, #195ff7);
+    height: 100vh;
 }
 
 #alinhamento {
     display: flex;
     justify-content: space-around;
+    padding: 10px;
     position: relative;
     top: 50%;
     left: 50%;
@@ -33,19 +28,40 @@ body {
 }
 
 #titulo {
-    font-family: 'Nexa Heavy', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 19px;
-    font-variant: small-caps;
     align-self: center;
     color: white;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3.7vh;
+    font-variant: small-caps;
+    position: relative;
+    right: 5px;
 }
 
 #fundo-criar-conta {
-    background: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-variant: small-caps;
-    border-radius: 15px;
+    background: #ffffffe0;
+    font-family: 'Nexa Heavy' , 'Arial Narrow', Arial, sans-serif;
+    border-radius: 12px;
     box-shadow: #00000065 1px 1px 15px 2px;
     text-align: center;
     height: 300px;
+    width: 400px;
+}
+
+#wb_email {
+    display: block;
+    font-size: 14px;
+    margin: auto;
+    padding: 5px 10px;
+    width: 280px;
+}
+
+#button_confimar {
+    border-radius: 7px;
+    border-top: 2px;
+    border-color: #25252559;
+    border-style: double;
+    position: relative;
+    top: 2px;
+    margin: auto;
+    padding: 4px 120px;
 }
