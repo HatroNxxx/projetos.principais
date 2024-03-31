@@ -9,7 +9,7 @@ html , body {
     height: 97vh;
 }
 
- header {
+header {
     background-image: linear-gradient(to bottom, #03d4c3, #0f9fca);
     color: white;
     height: 100px;
@@ -42,7 +42,7 @@ a {
     font-style: normal;
     font-size: 18px;
     padding: 10px;
-    margin: 9px 0px;
+    margin: 10px 0px;
     display: flex;
     justify-content: space-around;
 }
@@ -58,9 +58,8 @@ main {
 
 section > p {
     font-family: var(--font01);
-    font-size: 3.0vh;
-    position: relative;
-    height: 32px;
+    font-size: 25px;
+    padding-bottom: 1px;
     text-align: center;
 }
 
@@ -99,4 +98,21 @@ section > p {
 
 .camisa-fundo:hover {
     transform: translateY(-5px);
+}
+
+@media(max-width:720px) {
+    section > p {
+        font-size: 17px;
+    }
+    #menu-link-a{
+        font-size: 15px;
+        position: relative;
+        top: 2px;
+    }
+    header {
+        height: 90px;
+    }
+    #titulo {
+        font-size: 35px;
+    }
 }
