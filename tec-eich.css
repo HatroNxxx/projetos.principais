@@ -5,6 +5,14 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+.lexend-uniquifier {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
 
 @font-face {
     font-family: 'Nexa Heavy';
@@ -13,7 +21,7 @@
 }
 
 body {
-    background-image: linear-gradient(to bottom, #01f0dc, #195ff7);
+    background-image: linear-gradient(to bottom, #00fff2, #002291);
     height: 100vh;
 }
 
@@ -31,20 +39,23 @@ body {
     align-self: center;
     color: white;
     font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 3.7vh;
+    font-size: 25px;
     font-variant: small-caps;
     position: relative;
-    right: 5px;
+    right: 20px;
 }
 
 #fundo-criar-conta {
-    background: #ffffffe0;
-    font-family: 'Nexa Heavy' , 'Arial Narrow', Arial, sans-serif;
+    background: white;
     border-radius: 12px;
-    box-shadow: #00000065 1px 1px 15px 2px;
+    box-shadow: #0000007e 1px 1px 20px 3px;
+    font: "Lexend", sans-serif ;
+    font-family: "Lexend", sans-serif, weight, normal, auto;
     text-align: center;
     height: 300px;
     width: 400px;
+    position: relative;
+    right: 48px;
 }
 
 #wb_email {
@@ -58,10 +69,28 @@ body {
 #button_confimar {
     border-radius: 7px;
     border-top: 2px;
-    border-color: #25252559;
+    border-color: #252525c4;
     border-style: double;
     position: relative;
     top: 2px;
     margin: auto;
     padding: 4px 120px;
+}
+
+@media(max-width:720px) {
+    #alinhamento {
+        font-size: 14px;
+        padding: 20px;
+    }
+    #fundo-criar-conta {
+        height: 200px;
+        width: 280px;
+    }
+    #wb_email {
+        padding: 3px 8px;
+        width: 240px;
+    }
+    #button_confimar {
+        padding: 2px 100px;
+    }
 }

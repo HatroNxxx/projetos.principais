@@ -10,7 +10,7 @@ html , body {
 }
 
 header {
-    background-image: linear-gradient(to bottom, #2fd4fd 55%, #163cb9);
+    background-image: linear-gradient(to bottom, #2fd4fd 55%, #011c74);
     color: white;
     height: 100px;
 }
@@ -49,17 +49,14 @@ a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: normal;
     font-size: 18px;
-    margin: 5px 0px;
+    margin: 3px 0px;
     padding: 10px 10px;
     display: flex;
     justify-content: space-around;
 }
 
-main {
-    background: #2c2d2e21;
-}
-
 .fundo-img {
+    background: #2c2d2e21;
     display: flex;
     justify-content: space-around;
 }
@@ -109,10 +106,20 @@ section > p {
     transform: translateY(-5px);
 }
 
-.block {
-    display: flex;
+#block-amazom {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 1px solid black;
-    height: 150px;
+    font-size: 25px;
+    position: relative;
+    left: 40px;
+    margin: 45px 0px 0px 50px;
+    padding: 5px;
+    height: 100px;
+    width: 240px;
+}
+
+#block-amazom-mais-vendidos {
+    height: 200px;
 }
 
 @media(max-width:720px) {
@@ -121,6 +128,8 @@ section > p {
     }
     #menu-link-a{
         font-size: 15px;
+        position: relative;
+        top: 2px;
     }
     header {
         height: 90px;
