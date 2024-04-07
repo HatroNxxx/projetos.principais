@@ -106,6 +106,11 @@ section > p {
     transform: translateY(-5px);
 }
 
+#fundo-block {
+    display: flex;
+    justify-content: space-between;
+}
+
 #block-amazom-mais-vendidos {
     background-image: linear-gradient(to bottom, #273d96, #2c48e6);
     border: 1px solid #00000063;
@@ -117,17 +122,17 @@ section > p {
     position: relative;
     left: 40px;
     margin: 25px 0px;
-    padding: 5px;
+    padding: 5px 1px;
     width: 220px;
 }
 
-#centralizando-mais-vendidos-na-amazon {
+.centralizando-mais-vendidos-na-amazon {
     padding: 5px 0px;
     text-align: center;
     transition: 800ms;
 }
 
-#centralizando-mais-vendidos-na-amazon:hover {
+.centralizando-mais-vendidos-na-amazon:hover {
     transform: scale(1.03);
 }
 
