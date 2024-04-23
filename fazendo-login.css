@@ -11,13 +11,15 @@
 }
 
 #titulo-section-login {
-    text-align: center;
+    text-shadow: 2px 2px 0px black;
+    color: aqua;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 22px;
+    text-align: center;
 }
 
 #block-principal-login {
-    border: 2px solid #106bf3;
+    border: 2px solid #106bf365;
     border-radius: 5px;
     font-size: 27px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -44,7 +46,6 @@ label, input, form {
     background: #38adfc;
     border: 1px solid #252525b7;
     border-radius: 7px;
-    box-shadow: 0px 0px 5px 1px #00000065;
     margin: 3px 0px;
     color: white;
     width: 264px;
