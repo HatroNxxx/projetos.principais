@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: black;
+    box-shadow: 0px 1px 10px #000000a9;
+    color: white;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    margin: 0px 10px;
+    width: 730px;
+}
+
+.conteudos_pricipais {
+    font-size: 31px;
+    margin: 14px 0px;
+}
+
+#margin-inicio {
+    margin: 30px 0px;
+}
+
+#inicio-p {
+    background: #b8b6b669;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px #00000069;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    padding: 19px 10px;
+    text-align: center;
+    margin: auto;
+    width: 980px;
+}
+
+.segurança-privacidade-suporte-guias_recursos {
+    font-size: 21px;
+    margin: 8px 8px;
+}
