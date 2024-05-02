@@ -109,6 +109,7 @@ section > p {
 #fundo-block {
     display: flex;
     justify-content: space-between;
+    margin: 30px 10px;
 }
 
 #block-amazom-mais-vendidos {
@@ -119,9 +120,7 @@ section > p {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
-    position: relative;
-    left: 40px;
-    margin: 25px 0px;
+    text-align: center;
     padding: 5px 1px;
     width: 220px;
 }
@@ -134,6 +133,33 @@ section > p {
 
 .centralizando-mais-vendidos-na-amazon:hover {
     transform: scale(1.03);
+}
+
+#samsung-smart-celulares-os_melhores_preco-mais_vendidos {
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: #00000071 1px 1px 15px 4px;
+    height: 400px;
+    width: 220px;
+}
+
+#nike-roupas-calçados-acessórios {
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: #00000071 1px 1px 15px 4px;
+    height: 400px;
+    width: 220px;
+}
+
+#sony-consoles-jogos-cameras-fone_de_ouvido {
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: #00000071 1px 1px 15px 4px;
+    height: 400px;
+    width: 220px;
 }
 
 @media(max-width:720px) {
