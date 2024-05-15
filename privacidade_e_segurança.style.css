@@ -5,28 +5,40 @@
     padding: 0;
 }
 
+body {
+    background: #575757d5;
+}
+
 header {
     font-size: 19px;
-    background: black;
+    background: #000000;
     box-shadow: 0px 1px 10px #000000a9;
     color: white;
     padding: 10px 0px;
     text-align: center;
 }
 
+main {
+    background: white;
+    border-radius: 10px;
+    padding: 15px 0px;
+    margin: 20px auto;
+    width: 800px;
+}
+
 #inicio-p {
-    background: #b8b6b669;
+    background: #cfcfcf69;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 1px #00000069;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 22px;
-    padding: 19px 10px;
+    padding: 25px 10px;
     text-align: center;
     margin: auto;
-    width: 980px;
 }
 
 .segurança-privacidade-suporte-guias_recursos {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 24px;
     margin: 11px 0px;
     text-align: center;
@@ -40,12 +52,10 @@ p {
 }
 
 .conteudos_pricipais {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
+    text-align: center;
     margin: 14px 0px;
-}
-
-#margin-inicio {
-    margin: 30px 0px;
 }
 
 .subtitulos-funcional {

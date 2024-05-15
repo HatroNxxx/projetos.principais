@@ -69,40 +69,12 @@ section > p {
     text-align: center;
 }
 
-.fone-img-fundo {
-    filter: drop-shadow(1px 1px 10px #73c1dfe5);
-    border-radius: 15px;
-    transition: 750ms;
+.a-img-shandow-hover {
+    box-shadow: 1px 1px 8px 1px #0000007a;
+    transition: 720ms;
 }
 
-.fone-img-fundo:hover {
-    transform: translateY(-5px)
-}
-
-.videogamer-img-fundo {
-    filter: drop-shadow(1px 1px 10px #22242783);
-    transition: 750ms;
-}
-
-.videogamer-img-fundo:hover {
-    transform: translateY(-5px);
-}
-
-.smartphone-fundo {
-    filter: drop-shadow(1px 3px 8px #ff3abd73);
-    transition: 750ms;
-}
-
-.smartphone-fundo:hover {
-    transform: translateY(-5px);
-}
-
-.camisa-fundo {
-    filter: drop-shadow(1px 1px 8px #003cff75);
-    transition: 700ms;
-}
-
-.camisa-fundo:hover {
+.a-img-shandow-hover:hover {
     transform: translateY(-5px);
 }
 
