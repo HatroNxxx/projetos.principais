@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html , body {
+    height: 100vh;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #2fd4fd 55%, #011c74);
+    color: white;
+    height: 100px;
+}
+
+@font-face {
+    font-family: 'Nexa Heavy';
+    src: url('fontes/nexa/Nexa-Heavy.ttf') format('truetype');
+}
+
+:root {
+    --font01: 'Nexa Heavy', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial','sans-serif';
+}
+
+#titulo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    text-align: center;
+}
+  
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.a-hover {
+    padding: 4px 4px;
+}
+
+.a-hover:hover {
+    border: 1px solid white;
+    padding: 3px;
+}
+
+#menu-link-a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    margin: 3px 0px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-around;
+}
